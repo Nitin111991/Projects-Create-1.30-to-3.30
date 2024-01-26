@@ -1,0 +1,73 @@
+.div1
+{
+    background-color: #81c408;
+    height: 10vh;
+    color: white;
+    border-radius: 50px 20px 50px 20px;
+}
+.div1 a:link,a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+.breadcrumb-item::before
+{
+    color: white !important;
+}
+.breadcrumb-item a:hover
+{
+    color: orange;
+}
+.navbar-nav li a
+{
+    color:  black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+input[type=search]
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: 2px solid orange;
+    /* background-image: url('img/download.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px; */
+    outline: none;
+}
+
+input[type=search]:hover
+{
+    background-color: orange;
+}
+input[type=search]::placeholder
+{
+    color:#81C408;
+    /* font-size: 12px; */
+    height: 20px;
+    width: 20px;
+}
+.btn1
+{
+    background-color: #81C408;
+}
+.btn1:hover
+{
+    background-color: orange;
+}
+.nav-pills li button
+{
+    width: 130px;
+    margin-left: 10px;
+}
+.nav-pills li button:focus
+{
+    background-color: orange !important;
+    color: white !important;
+}
+
+/* .container .nav .nav-item .active, .btn:hover {
+    background-color: #666;
+    color: white;
+  } */
