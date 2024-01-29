@@ -99,6 +99,7 @@
           </div> -->
           <div class="position-relative mt-5 w-75">
             <input type="text" class="form-control rounded-pill border border-warning p-3 border-4" placeholder="Search">
+            <!-- Submit button -->
             <div class="position-absolute top-50 end-0 translate-middle-y">
               <button class="btn rounded-pill text-white border border-warning btn1 p-3 border-4" type="button" >Submit now</button>
             </div>
@@ -191,17 +192,17 @@
       </div>
     </div>
   </div>
-     <!-- Our Organic Prodects -->
-     <div class="container mt-4">
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+     <!-- Our Organic Products -->
+    <div class="container mt-4">
+      <ul class="nav nav-pills mb-3 p-2" id="pills-tab" role="tablist">
         <li class="nav-item">
           <h1 class="w-75">Our Organic Products</h1>
         </li>
-        <li class="nav-item" role="presentation">          
-          <button class="nav-link btn active rounded-pill bg-light text-dark" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" >All Products</button>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active rounded-pill bg-light text-dark" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All Products</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link rounded-pill bg-light text-dark" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Vegetabbles</button>
+          <button class="nav-link rounded-pill bg-light text-dark" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Vegetables</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link rounded-pill bg-light text-dark" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Fruits</button>
@@ -210,174 +211,78 @@
           <button class="nav-link rounded-pill bg-light text-dark" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Bread</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link rounded-pill bg-light text-dark" id="pills-meat-tab" data-bs-toggle="pill" data-bs-target="#pills-meat" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">Meat</button>
+          <button class="nav-link rounded-pill bg-light text-dark" id="pills-meat-tab" data-bs-toggle="pill" data-bs-target="#pills-meat" type="button" role="tab" aria-controls="pills-meat" aria-selected="false">Meat</button>
         </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-          <!--  <div class="row row-cols-1 row-cols-md-3 g-4">
- <div class="col-md-3 col sm-6">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div> -->
-</div>
-        </div>
-        <div class="section">
-          <div class="row">
-            <div class="col-md-3 col sm-6">
-              <div class="col">
-                <div class="card">
-                  <img src="img/fruite-item-5.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h4 class="card-title">Grapes</h4>
-                    <p class="text-center fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quod, laudantium beatae nam quaerat odit velit tempora sint, repellendus dolore molestias animi, id aliquid fugiat placeat deserunt facilis enim dolores.</p>
-                    <h5 class="text-center">$4.99 / kg</h5>
-                    <button type="button" class="btn btn-outline-warning text-sussess rounded-pill">
-                      <i class="fa-solid fa-bag-shopping me-2"></i>Add to cart
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <!-- All Products -->
+          <div class="row row-cols-1 row-cols-md-4 g-4 products">
             
-            <div class="col-md-3 col sm-6">
-              <div class="card">
-                <img src="img/fruite-item-3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Banana</h5>
-                  <p class="card-text fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quod, laudantium beatae nam quaerat odit velit tempora sint, repellendus dolore molestias animi, id aliquid fugiat placeat deserunt facilis enim dolores.</p>
-                  <h5 class="text-center">$2.57 / kg</h5>
-                  <button type="button" class="btn btn-outline-warning text-sussess rounded-pill">
-                    <i class="fa-solid fa-bag-shopping me-2"></i>Add to cart
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col sm-6">
-              <div class="card">
-                <img src="img/fruite-item-2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quod, laudantium beatae nam quaerat odit velit tempora sint, repellendus dolore molestias animi, id aliquid fugiat placeat deserunt facilis enim dolores.</p>
-                  <h5 class="text-center">$6.45 / kg</h5>
-                  <button type="button" class="btn btn-outline-warning text-sussess rounded-pill">
-                    <i class="fa-solid fa-bag-shopping me-2"></i>Add to cart
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col sm-6">
-              <div class="card">
-                <img src="img/fruite-item-4.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quod, laudantium beatae nam quaerat odit velit tempora sint, repellendus dolore molestias animi, id aliquid fugiat placeat deserunt facilis enim dolores.</p>
-                  <h5 class="text-center">$9.69 / kg</h5>
-                  <button type="button" class="btn btn-outline-warning text-sussess rounded-pill">
-                    <i class="fa-solid fa-bag-shopping me-2"></i>Add to cart
-                  </button>
-                </div>
-              </div>
-            </div>
+           
           </div>
-          <!-- <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0"> -->
-            <!-- All  prodects -->
-
-
-            <!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+          <!-- End of All Products -->
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-4 g-4 veges">
             
-         
-            </div>
-  </div>
+           
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-4 g-4 fruits">
+            
+           
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-4 g-4 bread">
+            
+           
+          </div>
+        </div>
+        <div class="tab-pane fade" id="pills-meat" role="tabpanel" aria-labelledby="pills-meat-tab" tabindex="0">
+          <div class="row row-cols-1 row-cols-md-4 g-4 meat">
+            
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- Offers -->
+   <div class="container">
+    <div class="card-group gap-4 mt-4">
+      
+      <div class="card rounded border-warning position-relative border">
+        <img src="img/featur-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-warning p-5">
+          
+        </div>
+      
+      <div class="position-absolute bottom-0 start-50 translate-middle rounded p-3 w-75 text-center" style="background-color: #81C408;">
+        <h4 class="text-white">Fresh Apples</h4>
+        <h1>20% OFF</h1>
+      </div>
+      </div>
+      
+        <div class="card rounded border-secondary border position-relative">
+          <img src="img/featur-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-secondary p-5">
+            
+          </div>
+        
+        <div class="position-absolute bottom-0 start-50 translate-middle rounded p-4 bg-white w-75 text-center">
+          <h4 class="text-success">Tasty Fruits</h4>
+          <h2>Free Delivery</h2>
+        </div>
         </div>
         
-        <!-- <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-                 All  prodects -->
-
-
-                  <!--  <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card">
-                        <img src="img/fruite-item-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h4 class="card-title">Grapes</h4>
-                          <p class="text-center fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quod, laudantium beatae nam quaerat odit velit tempora sint, repellendus dolore molestias animi, id aliquid fugiat placeat deserunt facilis enim dolores?</p>
-                          <h5 class="text-center">$4.99 / kg</h5>
-                          <button type="button" class="btn btn-outline-warning text-sussess rounded-pill">
-                            <i class="fa-solid fa-bag-shopping me-2"></i>Add to cart
-                          </button>
-
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="img/fruite-item-2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer natural lead-in to additional content.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-        </div> -->
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-meat" role="tabpanel" aria-labelledby="pills-meat-tab" tabindex="0">...</div>
-      </div>
-     </div>
+          <div class="card rounded border-success border position-relative">
+            <img src="img/featur-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body p-5" style="background-color: #81C408;">
+              
+            </div>
 </body>
 </html>
 <script src="prodects.js"></script>

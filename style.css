@@ -66,7 +66,11 @@ input[type=search]::placeholder
     background-color: orange !important;
     color: white !important;
 }
-
+.products,.vages,.fruits,.bread,.meat img
+{
+   
+    
+}
 /* .container .nav .nav-item .active, .btn:hover {
     background-color: #666;
     color: white;

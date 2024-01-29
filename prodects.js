@@ -128,3 +128,114 @@ const items=[
         qty:0
     },
 ]
+
+let productel=document.querySelector('.products')
+console.log(productel)
+function displayproducts()
+{
+    items.map((prod)=>{
+        productel.innerHTML+=`
+        <div class="col">
+              <div class="card">
+                <img src=${prod.image} class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">${prod.name}</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                  <h5>$${prod.price} / kg</h5>
+                  <button type="button" class="btn btn-outline-warning text-success rounded-pill">
+                    <i class="fa-solid fa-bag-shopping me-2"></i> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>`
+    })
+}
+displayproducts()
+let vegesel=document.querySelector('.veges')
+console.log(vegesel)
+function displayveges()
+{
+    items.slice(7,12).map((prod)=>{
+        vegesel.innerHTML+=`
+        <div class="col">
+              <div class="card">
+                <img src=${prod.image} class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">${prod.name}</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                  <h5>$${prod.price} / kg</h5>
+                  <button type="button" class="btn btn-outline-warning text-success rounded-pill">
+                    <i class="fa-solid fa-bag-shopping me-2"></i> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>`
+    })
+}
+displayveges()
+let fruitel=document.querySelector('.fruits')
+console.log(fruitel)
+function displayfruits()
+{
+    items.slice(0,7).map((prod)=>{
+        fruitel.innerHTML+=`
+        <div class="col">
+              <div class="card">
+                <img src=${prod.image} class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">${prod.name}</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                  <h5>$${prod.price} / kg</h5>
+                  <button type="button" class="btn btn-outline-warning text-success rounded-pill">
+                    <i class="fa-solid fa-bag-shopping me-2"></i> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>`
+    })
+}
+displayfruits()
+let breadel=document.querySelector('.bread')
+console.log(breadel)
+function displaybread()
+{
+    items.slice(12,14).map((prod)=>{
+        breadel.innerHTML+=`
+        <div class="col">
+              <div class="card">
+                <img src=${prod.image} class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">${prod.name}</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                  <h5>$${prod.price} / kg</h5>
+                  <button type="button" class="btn btn-outline-warning text-success rounded-pill">
+                    <i class="fa-solid fa-bag-shopping me-2"></i> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>`
+    })
+}
+displaybread()
+let meatel=document.querySelector('.meat')
+console.log(meatel)
+function displaymeat()
+{
+    items.slice(14,16).map((prod)=>{
+        meatel.innerHTML+=`
+        <div class="col">
+              <div class="card">
+                <img src=${prod.image} class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h4 class="card-title">${prod.name}</h4>
+                  <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
+                  <h5>$${prod.price} / kg</h5>
+                  <button type="button" class="btn btn-outline-warning text-success rounded-pill">
+                    <i class="fa-solid fa-bag-shopping me-2"></i> Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>`
+    })
+}
+displaymeat()
