@@ -66,11 +66,26 @@ input[type=search]::placeholder
     background-color: orange !important;
     color: white !important;
 }
-.products,.vages,.fruits,.bread,.meat img
+.slider-1 img:hover 
 {
    
-    
+    transform: scale(1.1,1.1);
+    transition: 2s;
 }
+.slider-1 .card
+{
+    overflow: hidden;
+    border:  1px solid #81C408;
+}
+.slider-1 .card:hover
+{
+    box-shadow: 9px 10px 12px lightgray;
+}
+.text-dark:hover
+{
+    background-color: #81C408!important;
+}
+
 /* .container .nav .nav-item .active, .btn:hover {
     background-color: #666;
     color: white;
